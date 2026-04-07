@@ -121,8 +121,8 @@ a {
 
 .aligned-text_right {
   text-align: right;
-  margin-top: 15px; 
-  margin-right: -30px;  
+  margin-top: 15px;
+  margin-right: -30px;
 }
 
 /* Описание + кнопка в одной строке */
@@ -270,7 +270,7 @@ a {
 /* ---------- About (детально) ---------- */
 
 .about {
-  padding: 105px 24px 75px;
+  padding: 105px 24px 0;
   display: grid;
   grid-template-columns: 334px 1fr;
   gap: 25px;
@@ -323,17 +323,35 @@ a {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
-  padding: 40px 50px;
+  padding: 180px 50px 82px;
   color: #000;
+}
+
+.footer__menu {
+  justify-self: center;
+  text-align: center;
+  align-self: start;
+  margin-top: 1px;
+  font-size:18px;
+}
+
+.footer__menu-link {
+  text-decoration: underline;
+}
+
+.footer__menu-link_active {
+  text-decoration: none;
 }
 
 .footer__social-list {
   display: flex;
   justify-self: end;
-  gap: 20px;
+  align-self: start;
+  gap: 48px;
+  margin-top: 1px;
 }
 
 .footer__social-link {
   display: block;
-  width: 40px;
+  width: 48px;
 }
